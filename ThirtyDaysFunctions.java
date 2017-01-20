@@ -6,9 +6,9 @@ public class ThirtyDaysFunctions {
 		
 		System.out.print("Which month? (1-12) ");
 		int month = s.nextInt();
+			----
 			
-			
-		System.out.println("There are " + monthDays(month) + " days in " + monthName(month));
+		System.out.println(monthDays(month) + " days hat " + monthName(month));
 	}
 	public static String monthName(int month) {
 		String monthName = "error";
